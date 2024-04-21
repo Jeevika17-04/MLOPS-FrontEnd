@@ -1,0 +1,52 @@
+/* App container */
+.App {
+  margin: 50px auto;
+  max-width: 50%;
+  padding: 20px;
+  border: 2px solid #1E2761,; /* Hot pink border */
+  border-radius: 10px;
+  background-color: #89ABE3; /* Sky blue background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #7A2048 ; /* Deep pink */
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #7A2048 ; /* Hot pink */
+}
+
+/* Input fields */
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #1E2761,; /* Hot pink border */
+  border-radius: 5px;
+}
+
+/* Submit button */
+button {
+  background-color: #1E2761,; /* Deep pink */
+  color: #7A2048 ;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color:#1E2761,; /* Hot pink on hover */
+}
